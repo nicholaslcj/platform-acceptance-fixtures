@@ -1,0 +1,7 @@
+apiVersion: v2
+name: acceptance-cron
+description: Business-independent CronJob and init container acceptance fixture for BusyBox
+type: application
+version: 0.1.0
+appVersion: "fixture-0.1.0"
+kubeVersion: ">=1.28.0"

@@ -1,0 +1,7 @@
+apiVersion: v2
+name: acceptance-http
+description: Business-independent HTTP deployment acceptance fixture for traefik/whoami
+type: application
+version: 0.1.0
+appVersion: "fixture-0.1.0"
+kubeVersion: ">=1.28.0"

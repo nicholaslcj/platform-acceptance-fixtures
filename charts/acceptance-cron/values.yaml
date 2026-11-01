@@ -1,0 +1,10 @@
+worker:
+  # Placeholder only. Intended public image: docker.io/library/busybox.
+  containerRef: registry.example.invalid/library/busybox@sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+preparation:
+  # Use a separately reviewed digest; these values are not real image digests.
+  ref: registry.example.invalid/library/busybox@sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+job:
+  schedule: "* * * * *"
+  backoffLimit: 1
+  suspend: false

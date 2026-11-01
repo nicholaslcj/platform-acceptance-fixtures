@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  acceptance-cron:
+  - apiVersion: v2
+    appVersion: fixture-0.1.0
+    created: "2026-11-01T14:16:10.863684+08:00"
+    description: Business-independent CronJob and init container acceptance fixture
+      for BusyBox
+    digest: 969b950bfa4f1a368be1e06023726554dd996e71a7d00f9757747121dc40715d
+    kubeVersion: '>=1.28.0'
+    name: acceptance-cron
+    type: application
+    urls:
+    - https://nicholaslcj.github.io/platform-acceptance-fixtures/acceptance-cron-0.1.0.tgz
+    version: 0.1.0
+  acceptance-http:
+  - apiVersion: v2
+    appVersion: fixture-0.1.0
+    created: "2026-11-01T14:16:10.863846+08:00"
+    description: Business-independent HTTP deployment acceptance fixture for traefik/whoami
+    digest: da3c3e0519ad0ca832331bfcbebcc5680c89980639ca99a1b5ea22a3acbcdac3
+    kubeVersion: '>=1.28.0'
+    name: acceptance-http
+    type: application
+    urls:
+    - https://nicholaslcj.github.io/platform-acceptance-fixtures/acceptance-http-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-11-01T14:16:10.863132+08:00"

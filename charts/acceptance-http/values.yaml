@@ -1,0 +1,8 @@
+app:
+  image:
+    # Placeholder only. Intended public image: docker.io/traefik/whoami.
+    repository: registry.example.invalid/traefik/whoami
+    digest: sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  replicas: 1
+http:
+  port: 8080
